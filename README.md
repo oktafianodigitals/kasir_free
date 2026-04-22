@@ -2,13 +2,6 @@
 
 > Aplikasi kasir desktop berbasis Python + PyQt6 dengan manajemen produk, transaksi, gudang, invoice PDF, dan ekspor Excel.
 ---
-![Deskripsi Gambar](img\01.png)
-![Deskripsi Gambar](img\02.png)
-![Deskripsi Gambar](img\03.png)
-![Deskripsi Gambar](img\04.png)
-![Deskripsi Gambar](img\05.png)
-![Deskripsi Gambar](img\06.png)
-![Deskripsi Gambar](img\07.png)
 
 ## 📋 Daftar Isi
 
@@ -28,6 +21,20 @@
 8. [Troubleshooting](#troubleshooting)
 
 ---
+
+![Deskripsi Gambar](img\01.png)
+
+![Deskripsi Gambar](img\02.png)
+
+![Deskripsi Gambar](img\03.png)
+
+![Deskripsi Gambar](img\04.png)
+
+![Deskripsi Gambar](img\05.png)
+
+![Deskripsi Gambar](img\06.png)
+
+![Deskripsi Gambar](img\07.png)
 
 ## Persyaratan Sistem
 
