@@ -157,7 +157,7 @@ class KasirApp(QMainWindow):
         layout.addStretch()
 
         # Version label
-        ver_lbl = QLabel("v2.1 — 2025")
+        ver_lbl = QLabel("v4.0 — 2026")
         ver_lbl.setStyleSheet("color: #45475a; font-size: 9px; padding: 4px;")
         layout.addWidget(ver_lbl)
 

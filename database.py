@@ -109,8 +109,8 @@ class Database:
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS pengaturan (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    nama_toko TEXT NOT NULL DEFAULT 'SABLON KAOS MANADO',
-                    alamat_toko TEXT NOT NULL DEFAULT 'Jln. Karombasan selatan 1, Rt 07 Rw 05',
+                    nama_toko TEXT NOT NULL DEFAULT 'DT-Studio',
+                    alamat_toko TEXT NOT NULL DEFAULT 'Jln. abc no. 123',
                     pin_akses TEXT NOT NULL DEFAULT '123456'
                 )
             ''')
@@ -156,7 +156,7 @@ class Database:
             count = cursor.fetchone()[0]
             if count == 0:
                 cursor.execute('''INSERT INTO pengaturan (nama_toko, alamat_toko, pin_akses)
-                    VALUES ('SABLON KAOS MANADO', 'Jln. Karombasan selatan 1, Rt 07 Rw 05', '123456')''')
+                    VALUES ('DT-Studio', 'Jln. abc no. 123', '123456')''')
                 logger.info("Data pengaturan default diinsert.")
 
     # ─────────────────────────────────────────────
