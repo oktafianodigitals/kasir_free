@@ -1,0 +1,7 @@
+PyQt6
+reportlab
+qrcode
+Pillow
+openpyxl
+pandas
+numpy
