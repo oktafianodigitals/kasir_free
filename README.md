@@ -51,8 +51,8 @@
 
 **1. Clone atau ekstrak project**
 ```bash
-unzip NEW-KASIR.zip
-cd NEW-KASIR
+unzip kasir_free.zip
+cd kasir_free
 ```
 
 **2. (Opsional) Buat virtual environment**
