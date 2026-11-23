@@ -1,0 +1,39 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# ── Virtual environment ──
+venv/
+.venv/
+env/
+
+# ── Database (data toko, dibuat otomatis saat aplikasi dijalankan) ──
+# icon.ico di folder database/ tetap ikut ter-commit
+database/*.db
+database/*.db-wal
+database/*.db-shm
+database/*.sqlite
+database/*.sqlite3
+
+# ── Hasil generate aplikasi ──
+invoice/
+export/
+*.xlsx
+*.log
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Environment / rahasia ──
+.env
